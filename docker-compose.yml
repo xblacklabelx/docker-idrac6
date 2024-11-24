@@ -8,9 +8,9 @@ services:
       - 5800:5800
       - 5900:5900
     environment:
-      - IDRAC_HOST=idrac1.example.org
+      - IDRAC_HOST=192.168.1.41
       - IDRAC_USER=root
-      - IDRAC_PASSWORD=1234
+      - IDRAC_PASSWORD=mason
     # Experimental! To directly mount an iso as iDRAC virtual media, 
     # uncomment the below and set to a filename that appears in /vmedia
       # - VIRTUAL_ISO=name_of_iso.iso
